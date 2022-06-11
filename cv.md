@@ -1,5 +1,3 @@
-# rsscool-cv
-
 ## ***Mykhailenko Oleh***
 
 ### ***location:***  Kyiv, Ukraine.
