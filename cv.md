@@ -11,7 +11,7 @@
 
 ## Skils:
 ### - SolidWorks
-### - Compass - 3D
+### - Kompas-3D
 ### - Solid Edge 2D Nesting
 
 

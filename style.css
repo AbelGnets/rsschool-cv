@@ -56,6 +56,8 @@ body {
 
 .contacntInfo {
     padding-top: 40px;
+    padding-bottom: 20px;
+    border-bottom: 3px solid darkgray;
 }
 
 .left_title {
@@ -85,8 +87,26 @@ body {
 }
 
 .contacntInfo ul li span {
-    color: rgb(92, 58, 32);
+    color: black;
     font-weight: 600;
+}
+
+.contacntInfo_skils {
+    padding-top: 40px;
+    padding-bottom: 20px;
+    border-bottom: 3px solid darkgray;
+}
+
+.Text_skils {
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px;
+    color: black;
+}
+
+.small_skils {
+    color: rgba(85, 53, 30, 0.8);
 }
 
 .container .right-hand_side {
