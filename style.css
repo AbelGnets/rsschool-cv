@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    background: rgb(241, 241, 165);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 750px;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background-color: white;
+    display: grid;
+    margin: 30px;
+    grid-template-columns: 1fr 2fr ;
+}
+
+.container .left-hand_side {
+    position: relative;
+    background-color: rgb(128, 128, 242);
+    padding: 40px;
+}
+
+.Profile_Title {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 3px solid darkgray;
+}
+
+.Profile_Title h2 {
+    color: rgb(92, 58, 32);
+    font-size: 30px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+.Profile_Title h2 span {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.contacntInfo {
+    padding-top: 40px;
+}
+
+.left_title {
+    color: whitesmoke;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.contacntInfo ul {
+    position: relative;
+}
+
+.contacntInfo ul li {
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.contacntInfo ul li .icon {
+    display: inline-block;
+    width: 30px ;
+    font-size: 20px;
+    color: rgb(193, 78, 72);
+}
+
+.contacntInfo ul li span {
+    color: rgb(92, 58, 32);
+    font-weight: 600;
+}
+
+.container .right-hand_side {
+    position: relative;
+    background-color: white;
+    padding: 40px;
+}
+
+
