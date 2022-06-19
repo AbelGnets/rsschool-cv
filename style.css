@@ -55,8 +55,8 @@ body {
 }
 
 .contacntInfo {
-    padding-top: 40px;
-    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 10px;
     border-bottom: 3px solid darkgray;
 }
 
@@ -92,12 +92,12 @@ body {
 }
 
 .contacntInfo_skils {
-    padding-top: 40px;
-    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 10px;
     border-bottom: 3px solid darkgray;
 }
 
-.Text_skils {
+.contacntInfo_skils .Text_skils {
     display: inline-block;
     font-size: 20px;
     font-weight: 300;
