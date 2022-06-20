@@ -149,4 +149,39 @@ background: green;
     padding: 40px;
 }
 
+.about_me {
+    margin-bottom: 50px;
+}
 
+.about_me:last-child {
+    margin-bottom: 0px;
+}
+
+.right_title {
+    color: navy;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+p {
+    color: black;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+.about_me .University {
+    color: black;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px;
+    margin-bottom: 20px
+}
+
+.about_me .Faculty {
+    color: black;
+    font-style: italic;
+    font-size: 20px;
+    font-weight: 300;
+}
